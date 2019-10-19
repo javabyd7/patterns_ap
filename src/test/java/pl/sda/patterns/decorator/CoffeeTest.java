@@ -9,7 +9,7 @@ class CoffeeTest {
 
     @Test
     void priceShouldBe5() {
-        Coffee coffee = new Coffee();
+        CoffeeInterface coffee = new Coffee();
 
         assertThat(coffee.price()).isEqualTo(5);
     }
